@@ -1,27 +1,44 @@
+
+body{
+    background-color: rgb(230, 183, 207);
+}
+
 header {
     background-color: hotpink;
     display:flex;
-    justify content: space-between;
-    flex-wrap:wrap;
+    justify-content: space-between;
+    flex-wrap:after;
+    padding: 20px;
 
 }
 
 header h1 {
 
 color:white;
-font-size: 50px;
+font-size: 40px;
 font-weight:bold;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-family:cursive;
+box-shadow: 3px 3px 5px;
+padding: 10px;
+border: 2px solid darkorchid;
 
 }
 
 header nav ul {
     display:flex;
-    flex-wrap:wrap;
-    justify-content: right;
-color: #000;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+
 }
 
+header nav ul li a {
+    padding: 10px;
+    font-size: 25px;
+    margin: 20px 20px 0 0;
+    font-weight: bold;
+    font-family: cursive;
+}
 .section h2 {
 
     font-size: 50px;
@@ -30,6 +47,16 @@ color: #000;
 
 .hero h2{
     font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content: end;
     color:purple;
-    background-image: url("../Users/barsanti/Downloads/pink_bk2.jpg");
+    text-align: right;
+    background-image: url(/Users/barsanti/Portfolio/photos/27E0EDDD-90E3-47AA-8B2C-C9ECFE266320.avif);
+    height: 200px;
+
+}
+
+.hero img {
+    height: 100px;
 }
