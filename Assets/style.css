@@ -1,62 +1,237 @@
 
 body{
-    background-color: rgb(230, 183, 207);
+    background-color: rgb(255, 189, 223);
+    color:aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header {
-    background-color: hotpink;
+    background-color: rgb(247, 120, 184);
     display:flex;
     justify-content: space-between;
-    flex-wrap:after;
-    padding: 20px;
+    flex-wrap:wrap;
+    padding: 10px;
+    align-items: center;
+
 
 }
 
 header h1 {
 
-color:white;
-font-size: 40px;
+color: hotpink;
+font-size: 25px;
 font-weight:bold;
-font-family:cursive;
+font-family:fantasy;
+background-color: rgb(255, 189, 223);
 box-shadow: 3px 3px 5px;
-padding: 10px;
-border: 2px solid darkorchid;
+border: 2px solid rgb(192, 131, 222);
+width:400px;
+height:100px;
+padding-block: 10px;
 
+
+
+}
+
+header img {
+    height: 75px;
+
+}
+header nav {
+    margin: 35px;
 }
 
 header nav ul {
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     list-style: none;
 
 }
 
 header nav ul li a {
-    padding: 10px;
+    padding: 3px;
     font-size: 25px;
     margin: 20px 20px 0 0;
-    font-weight: bold;
-    font-family: cursive;
-}
-.section h2 {
-
-    font-size: 50px;
-    color: hotpink;
+    font-weight: lighter;
+    
 }
 
-.hero h2{
-    font-size: 50px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    display:flex;
-    justify-content: end;
-    color:purple;
-    text-align: right;
+header nav ul li a:hover {
+    color: rgb(254, 9, 132);
+    background-color: rgb(255, 189, 223);
+   
+}
+/* header styling end  */
+.hero {
     background-image: url(/Users/barsanti/Portfolio/photos/27E0EDDD-90E3-47AA-8B2C-C9ECFE266320.avif);
     height: 200px;
+    padding: 150px;
+    
+}
+.hero p {
+    font-size: 30px;
+    display:flex;
+    justify-content: end;
+    color:hotpink;
+    text-align: right;
+    
+}
+
+.hero span {
+    font-family: fantasy;
+    font-size: 40;
+}
+
+.title {
+border-right: 5px solid;
+min-height: 100px;
+text-align: right;
+padding-right: 40px;
+min-width: 20%;
+max-width: 20%;
 
 }
 
-.hero img {
-    height: 100px;
+.title h2 {
+    font-size: 50px;
+}
+ .about-me {
+    display:flex;
+    justify-content: space-between;
+    color: hotpink;
+    align-items: stretch;
+    padding-top:30px;
+
+ }
+.about-me p {
+    font-size: 25px;
+    line-height: 2;
+    padding: 0 30px;
+    width: 90%;
+
+}
+.my-work {
+    padding: 50px 0;
+    display:flex;
+    justify-content:space-between;
+    background-color:hotpink;
+
+}
+
+.my-work h2 {
+        font-size: 50px;
+    
+    }
+
+.projects-grid {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+
+    }
+
+.projects {
+    width:70%;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows:auto;
+    gap:10px;
+    padding: 100%;
+}
+
+
+.label {
+    border: solid;
+    color:aliceblue;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-decoration: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.horiseon {
+    grid-column: 1/3;
+    grid-row: span 2;
+    background-image: url("/Users/barsanti/Portfolio/photos/8759FD1C-03DF-48FA-ACAC-967558E56FDD.jpeg") ;
+}
+
+.surf-report {
+    background-image:url("/Users/barsanti/Portfolio/photos/8759FD1C-03DF-48FA-ACAC-967558E56FDD.jpeg");
+    background-position: 50% 15%;
+}
+ 
+.calculator {
+    background-image: url("/Users/barsanti/Portfolio/photos/8759FD1C-03DF-48FA-ACAC-967558E56FDD.jpeg");
+    background-position: 60% 50%;
+}
+
+.puzzle {
+    url("/Users/barsanti/Portfolio/photos/8759FD1C-03DF-48FA-ACAC-967558E56FDD.jpeg")
+}
+
+.project5{
+    url("/Users/barsanti/Portfolio/photos/8759FD1C-03DF-48FA-ACAC-967558E56FDD.jpeg")
+}
+
+.project-label{
+    padding: 10px;
+}
+
+
+footer {
+    padding: top 30px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+
+}
+
+.Contact-Me  h2{
+    font-size: 30px;
+}
+
+
+
+.contact-list{
+    width: 80%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul {
+    list-style:none;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    font-size:30px;
+
+    }
+
+footer ul li a {
+text-decoration: none;
+color:hotpink;
+padding: 10px;
+
+    }
+
+
+
+footer h3{
+    color: hotpink;
+    font-size: 20px;
+    align-content: center;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: 0;
+   padding-right: 50px;
+
 }
