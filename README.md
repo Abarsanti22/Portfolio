@@ -27,7 +27,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 
 ## Screenshot
-/Users/barsanti/Portfolio/BC96892C-3224-4E89-BEF5-E8B217E6576F.png
+<img width="1436" alt="Screenshot 2023-08-02 at 10 34 52 PM" src="https://github.com/Abarsanti22/Portfolio/assets/138410240/888d106d-8f5e-4932-ae41-aac09df9b8c3">
+
 
 ## Deployed Page
 https://abarsanti22.github.io/Horiseon/
