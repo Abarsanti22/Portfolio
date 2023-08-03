@@ -253,9 +253,79 @@ footer h3{
 
 }
 /* media query for tablet screens */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
+.hero p {
+    font-size:20px;
+    padding-right:20px;
+}
+.hero span {
+        font-size:30px;
+ }
 
+ .title h2 {
+    font-size:40px;
+ }
+
+.about-me p {
+    font-size:20px;
+
+}
+/* media query for phone screens */
+
+@media screen and (max-width: 575px)
+header {
+    justify-content-center;
+    padding: 18px;
+
+}
+header nav ul {
+    min-height: 75px;
+
+}
+
+.hero {
+    flex-direction: column;
+}
+
+.about-me {
+    flex-direction: column;
+}
+ 
+.title {
+    border-bottom: 5px;
+    text-align: center;
     
 }
 
-/* media query for phone screens */
+.about-me p {
+    font-size: 15px;
+    width: 100%;
+    padding: 15px;
+}
+
+.my-work {
+    flex-direction: column;
+    padding: 30px 0;
+}
+
+.projects-grid {
+    width: 100%;
+padding: 10px;
+}
+
+.projects {
+    width: 80%;
+}
+
+footer {
+    flex-direction: column;
+}
+
+footer ul {
+    flex-direction: column ;
+}
+
+footer ul li {
+    text-align: center;
+    padding: 10px;
+}
