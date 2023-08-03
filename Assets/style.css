@@ -1,3 +1,5 @@
+
+/* variables for most commonly used colors */
 :root {
     --primary: hotpink;
     --secondary: rgb(255, 189, 223);
@@ -7,7 +9,7 @@ body{
     color:aliceblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+/* header styling begins */
 header {
     background-color: rgb(247, 120, 184);
     display:flex;
@@ -66,7 +68,7 @@ header nav ul li a:hover {
     background-color: var(--secondary);
    
 }
-/* header styling end  */
+/* hero styling begins */
 .hero {
     background-image: url(/Users/barsanti/Portfolio/photos/27E0EDDD-90E3-47AA-8B2C-C9ECFE266320.avif);
     height: 200px;
@@ -100,6 +102,8 @@ max-width: 20%;
 .title h2 {
     font-size: 50px;
 }
+
+/* about me styling begins */
  .about-me {
     display:flex;
     justify-content: space-between;
@@ -122,7 +126,7 @@ max-width: 20%;
     background-color:var(--primary);
 
 }
-
+/* my work styling begins */
 .my-work h2 {
         font-size: 50px;
     
@@ -186,7 +190,7 @@ max-width: 20%;
 .project-label{
     padding: 10px;
 }
-
+/* contact me styling begins */
 footer {
     display:flex;
   
@@ -215,6 +219,7 @@ footer {
 
 }
 
+
 footer ul {
 
     display:flex;
@@ -234,6 +239,7 @@ padding: 5px;
     }
 footer ul li {
     margin-left: 10px;
+    padding-bottom: 25px;
 }
 
 
@@ -246,8 +252,10 @@ footer h3{
  
 
 }
-
+/* media query for tablet screens */
 @media screen and (max-width: 576px) {
 
     
 }
+
+/* media query for phone screens */
