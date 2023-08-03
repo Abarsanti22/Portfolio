@@ -70,7 +70,7 @@ header nav ul li a:hover {
 }
 /* hero styling begins */
 .hero {
-    background-image: url("photos/27E0EDDD-90E3-47AA-8B2C-C9ECFE266320.avif");
+    background-image: url("../photos/27E0EDDD-90E3-47AA-8B2C-C9ECFE266320.avif");
     height: 200px;
     padding: 150px;
     
@@ -164,27 +164,27 @@ max-width: 20%;
 .horiseon {
     grid-column: 1/3;
     grid-row: span 2;
-    background-image: url("92B628CC-783B-46D2-AA33-CD960A84A655_4_5005_c.jpeg");
+    background-image: url("../92B628CC-783B-46D2-AA33-CD960A84A655_4_5005_c.jpeg");
     background-size: cover;
    
 }
 
 .surf-report {
-    background-image:url("92B628CC-783B-46D2-AA33-CD960A84A655_4_5005_c.jpeg");
+    background-image:url("../92B628CC-783B-46D2-AA33-CD960A84A655_4_5005_c.jpeg");
     background-position: 50% 15%;
 }
  
 .calculator {
-    background-image: url("92B628CC-783B-46D2-AA33-CD960A84A655_4_5005_c.jpeg");
+    background-image: url("../92B628CC-783B-46D2-AA33-CD960A84A655_4_5005_c.jpeg");
     background-position: 60% 50%;
 }
 
 .puzzle {
-   background-image: url("92B628CC-783B-46D2-AA33-CD960A84A655_4_5005_c.jpeg");
+   background-image: url("../92B628CC-783B-46D2-AA33-CD960A84A655_4_5005_c.jpeg");
 }
 
 .project5{
-  background-image:  url("92B628CC-783B-46D2-AA33-CD960A84A655_4_5005_c.jpeg");
+  background-image:  url("../92B628CC-783B-46D2-AA33-CD960A84A655_4_5005_c.jpeg");
 }
 
 .project-label{
