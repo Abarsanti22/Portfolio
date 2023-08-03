@@ -286,7 +286,10 @@ header nav ul {
 .hero {
     flex-direction: column;
 }
-
+.hero p {
+    font-size:15px;
+    padding-right:10px;
+}
 .about-me {
     flex-direction: column;
 }
