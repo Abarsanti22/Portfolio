@@ -31,4 +31,4 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 
 ## Deployed Page
-https://abarsanti22.github.io/Horiseon/
+https://abarsanti22.github.io/Portfolio/
